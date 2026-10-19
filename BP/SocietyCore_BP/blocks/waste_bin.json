@@ -1,0 +1,51 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "societycore:waste_bin",
+      "menu_category": {
+        "category": "construction",
+        "group": "societycore:itemGroup.name.civic",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "minecraft:map_color": "#323232",
+      "minecraft:geometry": "geometry.societycore.waste_bin",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "societycore_waste_bin",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -5.0,
+          0,
+          -5.0
+        ],
+        "size": [
+          10,
+          12,
+          10
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -5.0,
+          0,
+          -5.0
+        ],
+        "size": [
+          10,
+          12,
+          10
+        ]
+      },
+      "societycore:waste_bin": {}
+    }
+  }
+}

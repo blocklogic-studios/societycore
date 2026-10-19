@@ -1,0 +1,58 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "SocietyCore Behavior",
+    "description": "Mega civic/economy systems pack \u2014 courts, tax, labor, industry, mobility, institutions.",
+    "uuid": "018728e5-15d6-416b-858a-4d74e7c7bc65",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "41ac85ef-c1a2-4157-8464-b45d6fd0b0eb",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "d95fd2e3-04b5-471f-b03e-0ecd87fe387b",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "f59a7b68-03f6-430c-adfd-b0d0d32ddd29",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.6.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

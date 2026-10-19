@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "SocietyCore Resources",
+    "description": "Textures/models for SocietyCore.",
+    "uuid": "f59a7b68-03f6-430c-adfd-b0d0d32ddd29",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "c055a559-0b21-4be3-b9c9-829edfaa713b",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

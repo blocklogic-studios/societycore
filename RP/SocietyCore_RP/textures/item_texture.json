@@ -1,0 +1,33 @@
+{
+  "resource_pack_name": "societycore",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "societycore_boarding_pass": {
+      "textures": "textures/items/boarding_pass"
+    },
+    "societycore_certificate": {
+      "textures": "textures/items/certificate"
+    },
+    "societycore_civic_tablet": {
+      "textures": "textures/items/civic_tablet"
+    },
+    "societycore_contract": {
+      "textures": "textures/items/contract"
+    },
+    "societycore_deed": {
+      "textures": "textures/items/deed"
+    },
+    "societycore_hotel_keycard": {
+      "textures": "textures/items/hotel_keycard"
+    },
+    "societycore_license_plate": {
+      "textures": "textures/items/license_plate"
+    },
+    "societycore_loyalty_card": {
+      "textures": "textures/items/loyalty_card"
+    },
+    "societycore_ticket": {
+      "textures": "textures/items/ticket"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "societycore:job_board",
+      "menu_category": {
+        "category": "construction",
+        "group": "societycore:itemGroup.name.civic",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "minecraft:map_color": "#503C28",
+      "minecraft:geometry": "geometry.societycore.job_board",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "societycore_job_board",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -7.0,
+          0,
+          -2.0
+        ],
+        "size": [
+          14,
+          16,
+          4
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -7.0,
+          0,
+          -2.0
+        ],
+        "size": [
+          14,
+          16,
+          4
+        ]
+      },
+      "societycore:job_board": {}
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "societycore:court_bench",
+      "menu_category": {
+        "category": "construction",
+        "group": "societycore:itemGroup.name.civic",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "minecraft:map_color": "#5A4628",
+      "minecraft:geometry": "geometry.societycore.court_bench",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "societycore_court_bench",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0,
+          -6.0
+        ],
+        "size": [
+          16,
+          12,
+          12
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0,
+          -6.0
+        ],
+        "size": [
+          16,
+          12,
+          12
+        ]
+      },
+      "societycore:court_bench": {}
+    }
+  }
+}

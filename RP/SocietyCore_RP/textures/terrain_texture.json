@@ -1,0 +1,42 @@
+{
+  "resource_pack_name": "societycore",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "societycore_civic_hub": {
+      "textures": "textures/blocks/civic_hub"
+    },
+    "societycore_court_bench": {
+      "textures": "textures/blocks/court_bench"
+    },
+    "societycore_customs_desk": {
+      "textures": "textures/blocks/customs_desk"
+    },
+    "societycore_dispatch_console": {
+      "textures": "textures/blocks/dispatch_console"
+    },
+    "societycore_hotel_desk": {
+      "textures": "textures/blocks/hotel_desk"
+    },
+    "societycore_job_board": {
+      "textures": "textures/blocks/job_board"
+    },
+    "societycore_notary_desk": {
+      "textures": "textures/blocks/notary_desk"
+    },
+    "societycore_permit_desk": {
+      "textures": "textures/blocks/permit_desk"
+    },
+    "societycore_school_desk": {
+      "textures": "textures/blocks/school_desk"
+    },
+    "societycore_survey_stake": {
+      "textures": "textures/blocks/survey_stake"
+    },
+    "societycore_tax_office": {
+      "textures": "textures/blocks/tax_office"
+    },
+    "societycore_waste_bin": {
+      "textures": "textures/blocks/waste_bin"
+    }
+  }
+}

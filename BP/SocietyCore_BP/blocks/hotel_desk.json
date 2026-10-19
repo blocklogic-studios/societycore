@@ -1,0 +1,51 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "societycore:hotel_desk",
+      "menu_category": {
+        "category": "construction",
+        "group": "societycore:itemGroup.name.civic",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "minecraft:map_color": "#643C50",
+      "minecraft:geometry": "geometry.societycore.hotel_desk",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "societycore_hotel_desk",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0,
+          -6.0
+        ],
+        "size": [
+          16,
+          12,
+          12
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0,
+          -6.0
+        ],
+        "size": [
+          16,
+          12,
+          12
+        ]
+      },
+      "societycore:hotel_desk": {}
+    }
+  }
+}

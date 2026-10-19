@@ -1,0 +1,51 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "societycore:survey_stake",
+      "menu_category": {
+        "category": "construction",
+        "group": "societycore:itemGroup.name.civic",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "minecraft:map_color": "#B4A028",
+      "minecraft:geometry": "geometry.societycore.survey_stake",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "societycore_survey_stake",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -2.0,
+          0,
+          -2.0
+        ],
+        "size": [
+          4,
+          16,
+          4
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -2.0,
+          0,
+          -2.0
+        ],
+        "size": [
+          4,
+          16,
+          4
+        ]
+      },
+      "societycore:survey_stake": {}
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "societycore:tax_office",
+      "menu_category": {
+        "category": "construction",
+        "group": "societycore:itemGroup.name.civic",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "minecraft:map_color": "#325A3C",
+      "minecraft:geometry": "geometry.societycore.tax_office",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "societycore_tax_office",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0,
+          -6.0
+        ],
+        "size": [
+          16,
+          12,
+          12
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0,
+          -6.0
+        ],
+        "size": [
+          16,
+          12,
+          12
+        ]
+      },
+      "societycore:tax_office": {}
+    }
+  }
+}
